@@ -8,7 +8,7 @@ public static void main(String[] args){
 	System.out.println("method 2: " + Main.getMessage());
 	System.out.println("method 2 without Main: " + getMessage());
 
-	Animal animal = new Animal("Azor", "dog", 8);
+	Animal animal = new Animal("Azor", Species.DOG, 8);
 	System.out.println(animal.toString());
 	
 }
